@@ -1,0 +1,78 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 1.5s ease;
+  }
+  
+  body {
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  input[type="text"],
+  input[type="email"] {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus {
+    border-color: #d61313;
+    outline: none;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color:transpaent;
+    color: #ffffff;
+    border: none;
+    background-color: #44db4c;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 15px;
+  }
+  
+  button:hover {
+    background-color: #b30000;
+  }
+  
+  
+  table.crudTable {
+    width: 80%;
+    max-width: 800px;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  table.crudTable thead {
+    background-color: #162a63;
+    color: #ffffff;
+  }
+  
+  table.crudTable th,
+  table.crudTable td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ffffff;
+  }
+  
+  table.crudTable tbody tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+  
+  table.crudTable tbody tr:hover {
+    background-color: #e9ecef;
+  }
+  
